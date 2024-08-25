@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Tasks</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/todo.css">
+    <link rel="icon" href="icons/check.png">
+</head>
+<body>
+
+<div class="container">
+
+<audio src="sound/yay-6120.mp3" id="yay" ></audio>
+    <div class="todo-app">
+    <h1><img src="icons/fireworks-.png"><img src="icons/fireworks-.png">Your Tasks<img src="icons/fireworks-.png"><img src="icons/fireworks-.png"></h1>
+
+        <div class="addcontainer">
+
+        <input id="tasktext" type="text" placeholder="Add a new task....">
+        <button  id="addtask">Add Task</button>
+
+    </div>
+        <span style="margin-left: 15px; margin-bottom: 10px" id="hidden" ></span>
+
+        <div class="options">
+            <span id="all">All</span>
+            <span id="complete">Complete</span>
+            <span id="incomplete">incomplete</span>
+        </div>
+
+    <div id="tasks">
+<!--        <div class="task">-->
+<!--            <p>sy</p>-->
+<!--            <img src="icons/close.png">-->
+<!--        </div>-->
+    </div>
+
+    </div>
+</div>
+<script src="js/to_do_list.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+</body>
+</html>
