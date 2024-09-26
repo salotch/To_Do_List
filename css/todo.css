@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+*{
+    font-family: "Matemasie", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #3b3638;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f6bdd2;
+    padding-top: 5%;
+
+
+}
+.todo-app{
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    width: 40%;
+
+}
+.todo-app h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+h1 img{
+    padding: 5px;
+}
+.addcontainer{
+    display: flex;
+    align-items: center;
+    background-color: #fff4f1;
+    border-radius: 20px;
+    margin: 10px;
+
+
+}
+input{
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #fff4f1;
+    border-radius: 20px;
+    box-sizing: border-box;
+
+}
+button{
+    border-radius: 20px;
+    padding: 12px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    background-color: #f684af;
+
+}
+button:hover{
+    cursor: pointer;
+
+}
+#tasks{
+    position: relative;
+}
+.task{
+    background-color: #fff4f1;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    margin: 10px;
+
+
+}
+.task p{
+    flex: 1;
+}
+
+.task img:hover{
+    background-color: rgba(30, 31, 34, 0.24);
+    border-radius: 30px;
+}
+.task:hover{
+    background-color: rgba(255, 244, 241, 0.58);
+    cursor: pointer;
+}
+.checked{
+
+    text-decoration:  line-through  ;
+}
+.button-wrapper canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.options{
+    display: flex;
+    /*justify-content: space-around;*/
+}
+.options span{
+    background-color: #fff4f1;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-left: 10px;
+
+}
+.options span:hover{
+    background-color: #f684af;
+    cursor: pointer;
+}
